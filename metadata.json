@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Name": "Color Profile Source Manager",
+        "Description": "Disables icc profile when certain apps is active for certain windows to allow direct scanout",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Email": "bot@bot.com",
+                "Name": "Bot bot"
+            }
+        ],
+        "Id": "colorprofilesourcemanager",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "http://guthib.com"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
