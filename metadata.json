@@ -5,14 +5,14 @@
         "Icon": "preferences-system-windows",
         "Authors": [
             {
-                "Email": "bot@bot.com",
-                "Name": "Bot bot"
+                "Email": "idontwanttoprovide@email.com",
+                "Name": "Bitbitbet"
             }
         ],
         "Id": "colorprofilesourcemanager",
         "Version": "1.0",
         "License": "GPLv3",
-        "Website": "http://guthib.com"
+        "Website": "http://github.com/Bitbitbet/colorprofilesourcemanager"
     },
     "X-Plasma-API": "javascript",
     "X-Plasma-MainScript": "code/main.js",
