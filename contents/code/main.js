@@ -19,7 +19,7 @@ function toggleICC(disable) {
     ICCDisabled = disable;
     const profile = disable ? "sRGB" : "ICC";
     callDBus("nl.dvdgiessen.dbusapplauncher", "/nl/dvdgiessen/DBusAppLauncher", "nl.dvdgiessen.dbusapplauncher.Exec", "Cmd",
-        "kscreen-doctor output." + output_name + "colorProfileSource." + profile);
+        "kscreen-doctor output." + output_name + ".colorProfileSource." + profile);
 }
 
 function isWindowInWhiteList(window) {
